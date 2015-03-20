@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="/SampleWebProject/TEST" method="POST">
-Hello <input type=text size=25 name="name"> <input type=submit>
-</form>
+<%-- <% int total = (Integer) session.getAttribute("total"); %> --%>
+<% int total = (Integer) application.getAttribute("total"); %>
+Total is <%= total %>
 </body>
 </html>
